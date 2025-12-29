@@ -1,4 +1,4 @@
-name: Build Custom Iosevka
+name: Build Custom Technik Mono
 on:
   workflow_dispatch:
     inputs:
