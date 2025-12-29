@@ -1,0 +1,29 @@
+name: Build Custom Iosevka
+on:
+  workflow_dispatch:
+    inputs:
+      plan:
+        description: 'Název plánu z vašeho TOML souboru'
+        required: true
+        default: 'TechnikMono'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ttfautohint
+          npm install
+      - name: Build font
+        run: npm run build -- contents::${{ github.event.inputs.plan }}
+      - name: Upload result
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ github.event.inputs.plan }}-font
+          path: dist/${{ github.event.inputs.plan }}
