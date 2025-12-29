@@ -6,7 +6,8 @@ serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
-[buildPlans.IosevkaCustom.variants.design]
+[buildPlans.TechnikMono.variants.design]
+zero = "tall-slashed"
 one = "base"
 two = "straight-neck-serifless"
 three = "flat-top-serifless"
@@ -16,7 +17,6 @@ six = "closed-contour"
 seven = "curly-serifless"
 eight = "crossing"
 nine = "closed-contour"
-zero = "tall-slashed"
 capital-a = "curly-serifless"
 capital-b = "standard-serifless"
 capital-q = "crossing"
