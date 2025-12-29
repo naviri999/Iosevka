@@ -1,0 +1,25 @@
+[buildPlans.IosevkaCustom]
+family = "Iosevka Custom"
+spacing = "term"
+inherits = "ss15"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaCustom.variants.design]
+one = "base"
+two = "straight-neck-serifless"
+three = "flat-top-serifless"
+four = "semi-open-non-crossing-serifed"
+five = "upright-arched-serifless"
+six = "closed-contour"
+seven = "curly-serifless"
+eight = "crossing"
+nine = "closed-contour"
+zero = "tall-slashed"
+capital-a = "curly-serifless"
+capital-b = "standard-serifless"
+capital-q = "crossing"
+capital-w = "straight-vertical-sides-flat-top-serifless"
+l = "flat-tailed"
+w = "straight-vertical-sides-flat-top-serifless"
