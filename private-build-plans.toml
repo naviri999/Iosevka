@@ -1,25 +1,50 @@
 [buildPlans.TechnikMono]
 family = "Technik Mono"
 spacing = "term"
-inherits = "ss15"
 serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
 [buildPlans.TechnikMono.variants.design]
-zero = "tall-slashed"
-one = "base"
-two = "straight-neck-serifless"
+one = "no-base"
+two = "curly-neck-serifless"
 three = "flat-top-serifless"
-four = "semi-open-non-crossing-serifed"
+four = "semi-open-non-crossing-serifless"
 five = "upright-arched-serifless"
-six = "closed-contour"
-seven = "curly-serifless"
+seven = "bend-serifless"
 eight = "crossing"
-nine = "closed-contour"
-capital-a = "curly-serifless"
-capital-b = "standard-serifless"
+capital-m = "hanging-serifless"
 capital-q = "crossing"
-capital-w = "straight-vertical-sides-flat-top-serifless"
-l = "flat-tailed"
+capital-r = "straight-serifless"
+capital-w = "straight-vertical-sides-serifless"
+l = "semi-tailed"
 w = "straight-vertical-sides-flat-top-serifless"
+y = "cursive-serifless"
+z = "straight-serifless"
+capital-eszet = "flat-top-serifed"
+tittle = "round"
+diacritic-dot = "round"
+percent = "rings-segmented-slash"
+question = "corner"
+
+[buildPlans.TechnikMono.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.TechnikMono.weights.Bold]
+shape = 700
+menu = 700
+css = 700
+
+[buildPlans.TechnikMono.slopes.Upright]
+angle = 0
+shape = "upright"
+menu = "upright"
+css = "normal"
+
+[buildPlans.TechnikMono.slopes.Italic]
+angle = 9.4
+shape = "italic"
+menu = "italic"
+css = "italic"
