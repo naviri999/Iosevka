@@ -1,5 +1,5 @@
-[buildPlans.IosevkaCustom]
-family = "Iosevka Custom"
+[buildPlans.TechnikMono]
+family = "Technik Mono"
 spacing = "term"
 inherits = "ss15"
 serifs = "sans"
